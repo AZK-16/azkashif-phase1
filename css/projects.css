@@ -1,0 +1,17 @@
+@import "universalstyle.css" screen;
+
+.gridaside {
+    justify-content: center;
+}
+
+.articleaboutme {
+    font-size: 0.9em;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+p {
+    line-height: 1.8em;
+}

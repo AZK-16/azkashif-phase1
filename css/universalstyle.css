@@ -1,0 +1,140 @@
+.dm-serif display-regular {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.playfair-display {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+.grid {
+    min-height: 100%;
+    display: grid;
+
+    grid-template-columns: (5, 1fr);
+    grid-template-rows: (5, auto);
+}
+
+.gridheader {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.gridarticle {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 5;
+
+    padding: 1em;
+    border: solid 5em black;
+    border-image: url(../images/bordersquare.png) 33% round;
+    
+    background-color: #23232b;
+}
+
+.gridaside {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 5;
+
+    padding: 3.5em;
+    background-color: #23232b;
+    border-left: solid 5px #fdf0d5;
+
+    display: flex;
+    align-items: center;
+}
+
+.gridfooter {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 5;
+}
+
+header, footer {
+    font-family: "DM Serif Display", serif;
+}
+
+.headerelements ul, .gridfooter ul {
+    display: flex;
+    align-items: center;
+    background-color: #fdf0d5;
+    padding: 0.8em;
+    justify-content: space-evenly;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-size: 1.3em;
+    padding: 0.7em;
+}
+
+a {
+    color: #282434;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d81e5b;
+}
+
+.articleaboutme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    font-family: "Playfair Display", serif;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color: #fdf0d5;
+}
+
+section h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.8em;
+}
+
+form {
+    text-align: center;
+}
+
+legend {
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3em;
+    color: #fdf0d5;
+    padding: 0.5em;
+}
+
+input {
+    font-family: "Playfair Display", serif;
+}
+
+fieldset {
+    padding: 1.3em;
+    border: solid 0.1em #f0544f;
+}
+
+input[type="submit"] {
+    color: #282434;
+    font-family: "DM Serif Display", serif;
+    cursor: pointer;
+    border: none;
+    font-size: 1em;
+    background-color: #fdf0d5;
+    width: 5em;
+    border-radius: 4px;
+}

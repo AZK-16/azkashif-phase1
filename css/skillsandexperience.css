@@ -1,0 +1,37 @@
+@import "universalstyle.css" screen;
+
+.describeexp {
+    width: 75%;
+}
+
+table td, table li {
+    font-size: 0.9em;
+}
+
+span {
+    color:#f0544f
+}
+
+.articleaboutme li {
+    font-size: 0.8em;
+    list-style:disc;
+}
+
+.articleaboutme a {
+    color: #ff548d;
+}
+.articleaboutme a:hover {
+    color: #fdf0d5;
+}
+
+.gridarticle h2 {
+    font-size: 2em;
+    text-decoration:underline;
+    color: #fdf0d5;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+}
+
+.articleaboutme h3 {
+    text-decoration: underline;
+}

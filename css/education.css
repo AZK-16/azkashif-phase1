@@ -1,0 +1,16 @@
+@import "universalstyle.css" screen;
+
+.articleaboutme li, p {
+    color: #f0544f;
+    font-size: 0.9em;
+}
+
+p {
+    color:#fdf0d5;
+}
+
+h3 {
+    color:#fdf0d5;
+    font-size: 1em;
+    text-decoration: underline;
+}
