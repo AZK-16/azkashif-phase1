@@ -9,11 +9,11 @@ input {
 }
 textarea {
     font-family: "Playfair Display", serif;
-    width: 100%;
+    width: 50%;
     height: 30vh;
     font-size: 1em;
 }
 
-p {
-    color: yellow;
+.gridarticle {
+    border: none;
 }
