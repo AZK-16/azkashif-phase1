@@ -18,40 +18,42 @@
 </head>
 <body>
 
+<!-- <script src="../azkashif-phase2/addEntry.js"></script> -->
+
     <div class="grid"> 
         <div class="gridheader">
             <header>
                 <div class="headerelements">
 
                     <nav>
-                        <ul>
-                            <div class="headername">
-                                <li><a href="./homepage.html">Aafreen Zainab Kashif</a></li>
-                            </div>
-        
-                            <div class="headerabout">
-                                <li><a href="./aboutme.html">About Me</a></li>
-                            </div>
-        
-                            <div class="headerachieve">
-                                <li><a href="./skillsandexperience.html">Achievements & Experiences</a></li>
-                            </div>
-        
-                            <div class="headerskills">
-                                <li><a href="./skillsandexperience.html">Skills</a></li>
-                            </div>
-        
-                            <div class="headereducation">
-                                <li><a href="./education.html">Education</a></li>
-                            </div>
-        
-                            <div class="headerprojects">
-                                <li><a href="./projects.html">Projects</a></li>
-                            </div>
-        
-                            <div class="headerblog">
-                                <li><a href="./blog.html">Blog</a></li>
-                            </div>
+                        <ul id="headertitles">
+                        <div class="headername">
+                            <li><a href="./index.php">Aafreen Zainab Kashif</a></li>
+                        </div>
+
+                        <div class="headerabout">
+                            <li><a href="./aboutme.php">About Me</a></li>
+                        </div>
+
+                        <div class="headerachieve">
+                            <li><a href="./skillsandexperience.php">Achievements & Experiences</a></li>
+                        </div>
+
+                        <div class="headerskills">
+                            <li><a href="./skillsandexperience.php">Skills</a></li>
+                        </div>
+
+                        <div class="headereducation">
+                            <li><a href="./education.php">Education</a></li>
+                        </div>
+
+                        <div class="headerprojects">
+                            <li><a href="./projects.php">Projects</a></li>
+                        </div>
+
+                        <div class="headerblog">
+                            <li><a href="./blog.php">View Blog</a></li>
+                        </div>
                         </ul>
                     </nav>
                 </div>
@@ -170,7 +172,7 @@
 
         <div class="gridaside">
             <aside>
-                <form method="post" action="">
+                <form method="post" action="login.php" id="loginform">
                     <fieldset>
                         <legend>Log in to post a blog!</legend>
                         <p>
@@ -178,7 +180,7 @@
                         </p>
                         <br>
                         <p>
-                            <input type="password" name="email" placeholder="Password">
+                            <input type="password" name="password" placeholder="Password">
                         </p>
                         <br>
                         <input type="submit" value="Login">

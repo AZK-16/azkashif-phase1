@@ -13,3 +13,7 @@ textarea {
     height: 30vh;
     font-size: 1em;
 }
+
+p {
+    color: yellow;
+}

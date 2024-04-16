@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
+    <title>Education</title>
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/projects.css">
+    <link rel="stylesheet" href="./css/education.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,8 +15,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
 
+    <!-- <script src="azkashif-phase2/addEntry.js" defer></script> -->
 </head>
 <body>
+
+<!-- <script src="../azkashif-phase2/addEntry.js"></script> -->
 
     <div class="grid"> 
         <div class="gridheader">
@@ -24,34 +27,34 @@
                 <div class="headerelements">
 
                     <nav>
-                        <ul>
-                            <div class="headername">
-                                <li><a href="./homepage.html">Aafreen Zainab Kashif</a></li>
-                            </div>
-        
-                            <div class="headerabout">
-                                <li><a href="./aboutme.html">About Me</a></li>
-                            </div>
-        
-                            <div class="headerachieve">
-                                <li><a href="./skillsandexperience.html">Achievements & Experiences</a></li>
-                            </div>
-        
-                            <div class="headerskills">
-                                <li><a href="./skillsandexperience.html">Skills</a></li>
-                            </div>
-        
-                            <div class="headereducation">
-                                <li><a href="./education.html">Education</a></li>
-                            </div>
-        
-                            <div class="headerprojects">
-                                <li><a href="./projects.html">Projects</a></li>
-                            </div>
-        
-                            <div class="headerblog">
-                                <li><a href="./blog.html">Blog</a></li>
-                            </div>
+                        <ul id="headertitles">
+                        <div class="headername">
+                            <li><a href="./index.php">Aafreen Zainab Kashif</a></li>
+                        </div>
+
+                        <div class="headerabout">
+                            <li><a href="./aboutme.php">About Me</a></li>
+                        </div>
+
+                        <div class="headerachieve">
+                            <li><a href="./skillsandexperience.php">Achievements & Experiences</a></li>
+                        </div>
+
+                        <div class="headerskills">
+                            <li><a href="./skillsandexperience.php">Skills</a></li>
+                        </div>
+
+                        <div class="headereducation">
+                            <li><a href="./education.php">Education</a></li>
+                        </div>
+
+                        <div class="headerprojects">
+                            <li><a href="./projects.php">Projects</a></li>
+                        </div>
+
+                        <div class="headerblog">
+                            <li><a href="./blog.php">View Blog</a></li>
+                        </div>
                         </ul>
                     </nav>
                 </div>
@@ -62,26 +65,33 @@
             <article>
                 <div class="articleaboutme">
                     <section>
-                        <h2>My Projects</h2>
+                        <h2>Education & Qualifications</h2>
                         <br>
-                        <h3>Languages Website</h3>
-                        <p>I made this SheCodes project with HTML, CSS and JavaScript to 
-                            convey my hobby of language learning and interact with the
-                            user by asking if they have done their Duolingo lesson.
+                        <h3>A-Levels</h3>
+                            <ul>
+                                <li>- Maths (A*)</li>
+                                <li>- English Literature (A)</li>
+                                <li>- Psychology (A*)</li>
+                            </ul>
+                        <br>
+                        <p>
+                            I appreciate the different skills each subject 
+                            provided me to boost my creative thinking and 
+                            problem-solving and support me in my aspiration 
+                            to become a UI designer.
                         </p>
                         <br>
-                        <h3>Travel Website</h3>
-                        <p>I made this website with HTML and the FireWorks software to
-                            inform about different tourist attractions, family activities, 
-                            how to reach these destinations and more.
-                        </p>
+                        <h3>Currently in University</h3>
+                            <ul>
+                                <li>- Computer Science - Bachelor of Science With Honours</li>
+                            </ul>
                         <br>
-                        <h3>Forest Game</h3>
-                        <p>This Java project is a mini-game where the player encounters
-                            different forest animals and their healing point score 
-                            changes depending on if they heal animals or collect medicinal herbs.
+                        <p>
+                            This course boosts my confidence with different 
+                            programming languages, encourages 
+                            me to learn independently and collaborate and
+                            exchange ideas with others to build a range of projects.
                         </p>
-                        
                     </section>
                 </div>
             </article>
@@ -89,7 +99,7 @@
 
         <div class="gridaside">
             <aside>
-                <form method="post" action="">
+                <form method="post" action="login.php" id="loginform">
                     <fieldset>
                         <legend>Log in to post a blog!</legend>
                         <p>
@@ -97,7 +107,7 @@
                         </p>
                         <br>
                         <p>
-                            <input type="password" name="email" placeholder="Password">
+                            <input type="password" name="password" placeholder="Password">
                         </p>
                         <br>
                         <input type="submit" value="Login">
